@@ -1,0 +1,134 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Event
+{% endblock %}
+
+{% block main %}
+<body>
+  <form method="POST" action="">
+
+      <div class="container">
+
+          <h1>Enter your event details!</h1>
+    <hr>
+
+
+
+        <label for="Sport_type"><b>Sport</b></label>
+        <input type="text" placeholder="Enter Sport Type" name="Sport_type" >
+
+
+            <label for="Gender"><b>Gender (eg. Men or Women)</b></label>
+        <input type="text" placeholder="Enter Gender" name="Gender" >
+
+
+        <label for="Event_address"><b>Opposing Team</b></label>
+        <input type="text" placeholder="Enter Opposing Team Name" name="Opposing_team" >
+
+
+        <label for="Event_date"><b>Date (YYYY-MM-DD; eg. 2019-12-05)</b></label>
+        <input class="form-control" id="date" name="Event_date"  placeholder="Enter YYYY-MM-DD" type="text"/>
+
+
+        <label for="Event_address"><b>Event Address</b></label>
+        <input type="text" placeholder="Enter Event Address" name="Event_address" >
+
+
+
+          <label for="Event_time"><b>Hour (eg. 9:00pm)</b></label>
+        <input type="text" placeholder="Enter Event Time" name="Event_time" >
+
+        <label for="Event_description"><b>Event Description</b></label>
+        <input type="text" placeholder="Enter Description" name="Event_description" >
+
+
+                   <label for="ticket_link_here"><b>Ticket Link</b></label>
+        <input type="text" placeholder="Enter Ticket Link" name="ticket_link_here" >
+
+
+
+        <label for="gcal_link_here"><b>Image</b></label>
+        <input type="text" placeholder="Enter Image Link" name="Image" >
+
+     <button type="submit" class="submitbtn">Submit</button>
+
+
+
+        </div>
+    <!-- <center>
+      <h1>Enter your event details!</h1> <br>
+
+      Sport <input type= "text" name="Sport_type" /> <br>
+      Gender (eg. Men or Women)<input type= "text" name="Gender"/><br>
+      Opposing Team <input type= "text" name="Opposing_team"/><br>
+      Date - Mon/date/year (eg. 12/13/2019) <input type= "text" name="Event_date"/><br>
+      Address <input type= "text" name="Event_address"/><br>
+      Time - hour (eg.9pm)<input type= "text" name="Event_time"/><br>
+      Event Description <input type= "text" name="Event_description"/><br>
+      Ticket Link <input type= "text" name="ticket_link_here"/><br>
+      Image <input type= "text" name="Image"/><br>
+
+      <input type="submit">
+    </center> -->
+  </form>
+</body>
+
+<script>
+//     $(document).ready(function(){
+//       var date_input=$('input[name="Event_date"]'); //our date input has the name "Event_date"
+
+//       var options={
+//         format: 'mm/dd/yyyy',
+//         todayHighlight: true,
+//         autoclose: true,
+//       };
+//       date_input.datepicker(options);
+//     })
+// </script>
+
+<style >
+
+* {box-sizing: border-box}
+
+
+/* Full-width input fields */
+input[type=text] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 8px;
+}
+
+/* Set a style for the submit button */
+.submitbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 15px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.submitbtn:hover {
+  opacity:1;
+}
+
+
+  </style>
+{% endblock %}

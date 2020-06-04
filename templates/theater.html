@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Theater
+{% endblock %}
+
+
+{% block main %}
+    <h1 class="sports_header">Theater Events for the 2019-2020 Year</h1>
+
+    <br>
+        <head>
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script type=text/javascript></script>
+        </head>
+
+        <div class="row justify-content-center">
+            <form class="form-inline my-4 my-lg-0" method="post" >
+                <input class="form-control" type="search" name="Search"  placeholder="Events" required>
+                <div style="padding-left:10px"></div>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    <br>
+{% endblock %}
