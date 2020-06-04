@@ -1,0 +1,130 @@
+
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+    font-family:times;
+}
+
+li .nav-item
+{
+    color: white;
+}
+
+nav .navbar-nav mr-auto mt-2
+{
+    color: white;
+}
+
+.home_header
+{
+    text-align: center;
+    color: #00356B;
+    font-family: times;
+}
+
+.sports_header
+{
+    text-align: center;
+    color: #00356B;
+    font-family: times;
+}
+
+.apology
+{
+    text-align: center;
+    font-family: Verdana
+}
+
+.error
+{
+    color: red;
+    text-align: center;
+    font-family: Verdana
+}
+
+body
+{
+    margin-top:20px;
+}
+
+.event
+{
+    top: 50%;
+    left: 50%;
+}
+
+.side_filter
+{
+    float:left;
+    color:blue;
+}
+
+.event_image
+{
+    width:50%;
+    height:50%;
+}
+
+.form-group
+{
+    text-align: center;
+
+}
+
+.boxed
+{
+    border: 1px solid black;
+}
+
+.sports_info
+{
+    color: grey;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sports_event_title
+{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+.home_image
+{
+    width: 600px;
+    height: 333px;
+}
+
+.login_note
+{
+
+    text-align: center;
+}
+
+
+#page-container {
+  position: relative;
+  /*padding-bottom:100px;*/
+  min-height: 100vh;
+
+}
+
+#content-wrap {
+    padding-bottom: .5rem;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7rem; /* Footer height */
+  background: #00356B;
+  color: white;
+  text-align: center;
+  font-family: times;
+  /*padding-bottom:0px;*/
+}
+
